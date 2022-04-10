@@ -8,5 +8,6 @@ export const TextToBuffer = (
   options,
   composite: Function
 ): string => {
-  return composite(textToImage.generateSync(text, options));
+  const uri = textToImage.generateSync(text, options).split(";base64,").pop();
+  return composite({}, Buffer.from(uri, "base64"));
 };

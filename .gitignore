@@ -11,6 +11,7 @@ logs/
 *.lock
 *.js
 !.autod.conf.js
+yarn-error.log
 
 app/**/*.js
 test/**/*.js
@@ -18,3 +19,4 @@ config/**/*.js
 app/**/*.map
 test/**/*.map
 config/**/*.map
+screenshot/

@@ -26,6 +26,7 @@
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",
     "lodash-es": "^4.17.21",
+    "node-base64-image": "^2.0.4",
     "puppeteer": "^13.5.2",
     "sharp": "^0.30.3",
     "text-to-image": "^5.2.0",
