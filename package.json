@@ -7,6 +7,7 @@
     "typescript": true,
     "declarations": true
   },
+  "type":true,
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-poster-service",
     "stop": "egg-scripts stop --title=egg-server-poster-service",
@@ -23,10 +24,13 @@
   },
   "dependencies": {
     "async": "^3.2.3",
+    "axios": "^0.27.2",
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",
+    "form-data": "^4.0.0",
     "lodash-es": "^4.17.21",
     "node-base64-image": "^2.0.4",
+    "node-fetch-commonjs": "^3.1.1",
     "puppeteer": "^13.5.2",
     "sharp": "^0.30.3",
     "text-to-image": "^5.2.0",
